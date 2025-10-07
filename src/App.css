@@ -1,0 +1,44 @@
+@font-face {
+  font-family: myFont;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: f;
+  src: url(fonts/Roboto-Bold.ttf);
+}
+nav {
+  color: #212121;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 30%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 15px;
+  box-shadow: 0 0 5px 5px rgb(209, 201, 201);
+  border-radius: 7px;
+}
+
+li {
+  margin: 5px 5px;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+}
+a:hover {
+  color: #1eb2a6;
+  transition: 0.5s;
+}
+.bold-text {
+  font-family: f;
+  color: #1eb2a6;
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    width: 60%;
+    margin: auto;
+  }
+}

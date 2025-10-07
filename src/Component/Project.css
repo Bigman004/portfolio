@@ -1,0 +1,47 @@
+.project-container {
+  margin: auto;
+  justify-self: center;
+  max-width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  margin-top: 20px;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  background-color: #dfd4d4;
+  border-radius: 15px;
+  box-shadow: 0 0 5px 5px rgb(163, 160, 160);
+}
+.project-title {
+  font-family: f;
+  margin: auto;
+  justify-self: center;
+}
+.project img {
+  width: 85%;
+  height: 100%;
+  margin: auto;
+  justify-self: center;
+}
+.project-link {
+  display: flex;
+  margin: auto;
+  justify-self: center;
+}
+.git-hub-btn {
+  background-color: #502e2cea;
+  padding: 5px 9px;
+}
+.site {
+  background-color: #722521ea;
+  padding: 5px 9px;
+}
+@media screen and (max-width: 768px) {
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
