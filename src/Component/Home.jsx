@@ -12,7 +12,7 @@ export const Home = () => {
           <div className="content-header">Front end developer</div>
           <div className="content">
             I am a front end developer for entry level, I have used html css,
-            javascript to build some frond end project .Open to volunteering on
+            javascript to build some front end project .Open to volunteering on
             projects to gain experience, with a strong commitment to delivering
             quality results
           </div>
